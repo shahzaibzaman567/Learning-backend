@@ -26,34 +26,6 @@ server.listen(465);//server number
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // console.log("hello")
 // let a = 5;
 
@@ -73,7 +45,7 @@ server.listen(465);//server number
 // })
 
 // const Number = 456 +555;
-// const  t2=performance.now()
+// const  t2=performance.now() //is ka performance dakna ka liya ka katna dar ma ata ha 
 
 // console.log(Number);
 // console.log(t1-t2);
