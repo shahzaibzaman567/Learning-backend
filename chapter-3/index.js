@@ -15,7 +15,7 @@ const server = express();
 //jab ak kam ham check kara jasa country of user to wo match na kara to middleWare is return karta ha or agar
 //match ho jaya to dosra middle ware ko pohoncha data ha
 //Execut any code
-//Make change to the reques and the response object
+//Make change to the request and the response object
 //modify and static hosting
 
 //bodyParer

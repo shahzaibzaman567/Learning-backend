@@ -11,6 +11,53 @@
 //dependencies 
 //dev dependencise
 //what is docker
+//controllar
+
+// sunday
+//what is salt 
+//bcyrpt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //🔥 Docker اصل میں کیا ہے؟
 
 // Docker = ek lightweight “container” system
