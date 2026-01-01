@@ -1,17 +1,17 @@
-//backend routing
-//crud methods 
-//middle wire
+//backend routing   T
+//crud methods      T  
+//middle wire   
 //install paskage of express 
-// nodemon install
-//port = 5555
-//express \. \router
-//crud with express
-//practicce on data post and  get of todo 
-//TC
-//dependencies 
-//dev dependencise
-//what is docker
-//controllar
+// nodemon install  T
+//port = 5555                 T
+//express \. \router           T 
+//crud with express   T
+//practicce on data post and  get of todo     T
+ //TC         thunder client                   T
+ //dependencies 
+//dev dependencise                              
+//what is docker                                 T   
+//controllar                                       T 
 
 // sunday
 //what is salt 
