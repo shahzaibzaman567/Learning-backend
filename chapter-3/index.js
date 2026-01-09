@@ -40,12 +40,12 @@ server.use(express.static("public"));
 // });
 
 const auth = (req, res, next) => {
-  // console.log(req.query);
-  // if (req.query.Password == "123") {
-  //   next();
-  // } else {
-  //   res.sendStatus(401);
-  // }
+  console.log(req.query);
+  if (req.query.password == "123") {
+    next();
+  } else {
+    res.sendStatus(401);
+  }
   next();
 };
 
