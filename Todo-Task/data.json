@@ -1,0 +1,18 @@
+{
+   "Todo" :[
+    {
+        "id":1,
+        "user":"ali",
+        "title":"homeWork",
+        "email":"abd@gmail.com"
+        
+    },
+    {
+        "id":2,
+        "user":"song",
+        "title":"schoolWork",
+        "email":"xyz@gmail.com"
+    }
+    
+]
+}

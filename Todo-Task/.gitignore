@@ -1,0 +1,3 @@
+# for ignoring the folder
+node_modules
+env
