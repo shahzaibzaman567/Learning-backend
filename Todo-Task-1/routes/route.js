@@ -1,5 +1,5 @@
 import express from "express";
-import { creatTodo , deleteTodo, getTodo, getTodobyId, Login, updateTodo } from "../controllar/conroller.js";
+import { creatTodo , deleteTodo, getTodo, getTodobyId, Login, logout, updateTodo } from "../controllar/conroller.js";
 import { AuthenticateToken } from "../middleware/auth.js";
 
 const router = express.Router();
@@ -16,6 +16,8 @@ router
 .get("/get-todo/:id",AuthenticateToken,getTodobyId )
 // @route   /delete-todo
 .delete("/delete-todo/:id",AuthenticateToken,deleteTodo)
+// @route   /delete-todo
+.delete("/logout",AuthenticateToken,logout)
 // @route   /update-todo
 .put("/update-todo/:id",AuthenticateToken,updateTodo)
 

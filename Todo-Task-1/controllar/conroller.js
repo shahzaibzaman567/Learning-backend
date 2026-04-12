@@ -22,7 +22,6 @@ export let creatTodo = (req, res) => {
 //login user
 export let Login = (req, res) => {
   let user = req.body;
-  user.push()
   const token = jwt.sign(user, process.env.ACCESS_SECRET_TOKEN, {
     expiresIn: "90m",
   });
@@ -50,7 +49,6 @@ export let getTodobyId = (req, res) => {
 
   res.json(findTodo);
 };
-
 // delet a todo
 export let deleteTodo = (req, res) => {
   let id = +req.params.id;
@@ -60,7 +58,6 @@ export let deleteTodo = (req, res) => {
     Todos.splice(index,1) 
     res.json({message:"your todo is deleted"})
 };
-
 //update todo
 export let updateTodo = (req,res)=>{
   let id = +req.params.id;
@@ -69,4 +66,9 @@ export let updateTodo = (req,res)=>{
    if(!todo) return res.sendStatus(404)
     todo.title = title
     res.json(todo)
+}
+export let logout = (req,res)=>{
+res.json({
+  message:"Logout successful"
+})
 }
